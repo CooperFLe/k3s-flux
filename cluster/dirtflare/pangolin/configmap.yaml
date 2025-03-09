@@ -35,7 +35,7 @@ data:
 
   gerbil:
     start_port: 51820
-    base_endpoint: "example.com"
+    base_endpoint: "proxy.cooperfle.com"
     use_subdomain: false
     block_size: 24
     site_block_size: 30
@@ -45,11 +45,6 @@ data:
     global:
       window_minutes: 1
       max_requests: 100
-
-  users:
-    server_admin:
-      email: "h8vtlbktb@mozmail.com"
-      password: "_VBMMgGK*TmQF43F3TvrA"
 
   flags:
     require_email_verification: false
