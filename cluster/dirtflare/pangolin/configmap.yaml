@@ -47,11 +47,11 @@ data:
 
   users:
     server_admin:
-      email: "admin@example.com"
-      password: "Password123!"
+      email: "h8vtlbktb@mozmail.com"
+      password: "_VBMMgGK*TmQF43F3TvrA"
 
   flags:
-    require_email_verification: true
+    require_email_verification: false
     disable_signup_without_invite: true
     disable_user_create_org: true
     allow_raw_resources: true
