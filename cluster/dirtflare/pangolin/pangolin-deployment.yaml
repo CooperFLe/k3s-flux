@@ -6,7 +6,8 @@ metadata:
     kompose.version: 1.35.0 (HEAD)
   labels:
     io.kompose.service: gerbil
-  name: gerbil
+  name: pangolin
+  namespace: pangolin
 spec:
   replicas: 1
   selector:
