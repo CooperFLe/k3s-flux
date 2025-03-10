@@ -68,8 +68,9 @@ spec:
             timeoutSeconds: 3
           name: pangolin
           volumeMounts:
-            - mountPath: /app/config
+            - mountPath: /app/config/config.yml
               name: pangolin-config
+              subPath: config
       restartPolicy: Always
       volumes:
         - name: gerbil-config
@@ -82,5 +83,5 @@ spec:
           persistentVolumeClaim:
             claimName: traefik-letsencrypt
         - name: pangolin-config
-          persistentVolumeClaim:
-            claimName: pangolin-config
+          configMap:
+            name: pangolin-configmap
